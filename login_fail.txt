@@ -14,7 +14,7 @@ Empty username and password
 Empty username and password 2
     Open login page
     Fillin username and password
-    dddUser can not login and see error message
+    User can not login and see error message
 
 *** Keywords ***
 Open login page
