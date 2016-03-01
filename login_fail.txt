@@ -20,5 +20,5 @@ Fillin username and password
     Click Button    LOG IN
 
 User can not login and see error message
-    Wait Until Page Contains     Please enter correct information on all fields1111
+    Wait Until Page Contains     Please enter correct information on all fields
 
