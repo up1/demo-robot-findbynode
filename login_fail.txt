@@ -9,8 +9,6 @@ Empty username and password
     Fillin username and password
     User can not login and see error message
 
-
-*** Testcases ***
 Empty username and password 2
     Open login page
     Fillin username and password
