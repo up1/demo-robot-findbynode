@@ -1,0 +1,24 @@
+*** Settings ***
+Library    Selenium2Library
+#Test Teardown    Close Browser
+
+
+*** Testcases ***
+Empty username and password
+    Open login page
+    Fillin username and password
+    User can not login and see error message
+
+*** Keywords ***
+Open login page
+    Open Browser    https://findmynode.com
+    Click Link    Log In
+
+Fillin username and password
+    Input Text    username    somkiat
+    Input Text    password    somdfdfdfkiat
+    Click Button    LOG IN
+
+User can not login and see error message
+    Wait Until Page Contains     Please enter correct information on all fields1111
+
